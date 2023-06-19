@@ -4,4 +4,4 @@ import { filterSlice } from './reducer'
 export const { addFilter } = filterSlice.actions;
 
 // export const getContactsValue = state => state.contacts.items;
-export const getFilterValue = state => state.filter.value;
+// export const getFilterValue = state => state.filter.value;

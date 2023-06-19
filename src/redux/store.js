@@ -5,6 +5,7 @@ import { setupListeners } from '@reduxjs/toolkit/dist/query';
 
 export const store = configureStore({
   reducer: {
+    // contacts: contactsSlice.reducer,
     filter: filterSlice.reducer,
     [contactsApi.reducerPath]: contactsApi.reducer,
   },
